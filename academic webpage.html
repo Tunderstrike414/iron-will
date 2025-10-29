@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Nejat's Academic Webpage</title>
+<link rel="stylesheet"href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+      border: 1px solid Gray;
+    }
+
+    .header {
+      background-color: pink;
+      color: white;
+      text-align: center;
+      font-size: 24px;
+      padding: 20px;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: gray;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 8px 0;
+      text-decoration: none;
+      color: black;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+    }
+
+    .profile img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+
+    .main-content {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main-content img {
+      width: 150px;
+      height: 150px;
+      border-radius: 20%;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td colspan="2" class="header">Nejat's Academic Webpage </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="profile">
+          <img src="nejat.jpg" alt="user picture">
+          <div>
+            <strong>Nejat Aragaw Mohammed</strong><br>
+            ID: NSR/0625/16
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="sidebar">
+        
+        <a href="Assn1.html">Assignment</a>
+        <a href="lab 1.html">Lab1</a>
+        <a href="lab 2.html">Lab2</a>
+        <a href="lab 3.html">Lab3</a>
+       
+      </td>
+      <td class="main-content">
+        <img src="cutest.jpg" alt="user picture">
+        <h2>Hello</h2>
+  <p>
+  👋 Welcome to my academic portfolio! I'm <strong>Nejat Aragaw</strong>, a passionate Software Engineering student at <strong>Wolkite University</strong>.  
+  This space is dedicated to showcasing my journey through code, creativity, and continuous learning.  
+  Explore my lab experiments, course assignments, and personal profile to see how I'm turning ideas into interactive web experiences.  
+  Whether you're a fellow student, instructor, or tech enthusiast — I'm excited to have you here!  
+  <br><br>
+  📬 <strong>Contact me:</strong> <a href="mailto:aragawnejat94@gmail.com">aragawnejat94@gamil.com</a>
+</p>
+
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
