@@ -1,127 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
   <title>Nejat's Academic Webpage</title>
-<link rel="stylesheet"href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
-  body {
-  margin: 0;
-  font-family: 'Segoe UI', 'Comic Sans MS', sans-serif;
-  background: linear-gradient(to bottom right, #fceff9, #e0f7fa);
-  color: #333;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-td {
-  vertical-align: top;
-  padding: 12px;
-  border: 1px solid #ccc;
-}
-
-.header {
-  background: linear-gradient(to right, #ff80ab, #ff4081);
-  color: white;
-  text-align: center;
-  font-size: 28px;
-  padding: 25px;
-  text-shadow: 1px 1px 3px #000;
-  letter-spacing: 1px;
-}
-
-.sidebar {
-  width: 200px;
-  background-color: #f8bbd0;
-  padding: 10px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-}
-
-.sidebar a {
-  display: block;
-  margin: 10px 0;
-  padding: 8px;
-  text-decoration: none;
-  color: #4a148c;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: background 0.3s ease;
-}
-
-.sidebar a:hover {
-  background-color: #ce93d8;
-  color: white;
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-  background-color: #fff3e0;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
-}
-
-.profile img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 15px;
-  border: 2px solid #ffca28;
-}
-
-.main-content {
-  padding: 20px;
-  text-align: center;
-  background-color: #f3e5f5;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(156, 39, 176, 0.2);
-}
-
-.main-content img {
-  width: 160px;
-  height: 160px;
-  border-radius: 20%;
-  border: 3px solid #ab47bc;
-  box-shadow: 0 0 10px rgba(171, 71, 188, 0.5);
-}
-
-.main-content h2 {
-  font-size: 26px;
-  color: #6a1b9a;
-  margin-top: 15px;
-}
-
-.main-content p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #4e342e;
-  padding: 0 20px;
-}
-
-.main-content a {
-  color: #d81b60;
-  text-decoration: underline;
-}
-
-.main-content a:hover {
-  color: #ad1457;
-}
-  
-
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Comic Sans MS', sans-serif;
+      background: linear-gradient(to bottom right, #fceff9, #e0f7fa);
+      color: #333;
+    }
+    .header {
+      background: linear-gradient(to right, #ff80ab, #ff4081);
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      padding: 25px;
+      text-shadow: 1px 1px 3px #000;
+      letter-spacing: 1px;
+    }
+    .sidebar {
+      background-color: #f8bbd0;
+      padding: 15px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      text-decoration: none;
+      color: #4a148c;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    .sidebar a:hover {
+      background-color: #ce93d8;
+      color: white;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      background-color: #fff3e0;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+      margin-bottom: 20px;
+    }
+    .profile img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: 2px solid #ffca28;
+    }
+    .main-content {
+      padding: 20px;
+      text-align: center;
+      background-color: #f3e5f5;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(156, 39, 176, 0.2);
+    }
+    .main-content img {
+      width: 160px;
+      height: 160px;
+      border-radius: 20%;
+      border: 3px solid #ab47bc;
+      box-shadow: 0 0 10px rgba(171, 71, 188, 0.5);
+    }
+    .main-content h2 {
+      font-size: 26px;
+      color: #6a1b9a;
+      margin-top: 15px;
+    }
+    .main-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #4e342e;
+      padding: 0 20px;
+    }
+    .main-content a {
+      color: #d81b60;
+      text-decoration: underline;
+    }
+    .main-content a:hover {
+      color: #ad1457;
+    }
   </style>
 </head>
 <body>
 
-  <table>
-    <tr>
-      <td colspan="2" class="header">Nejat's Academic Webpage </td>
-    </tr>
-    <tr>
-      <td colspan="2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 header">
+        Nejat's Academic Webpage
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
         <div class="profile">
           <img src="nejat.jpg" alt="user picture">
           <div>
@@ -129,33 +107,31 @@ td {
             ID: NSR/0625/16
           </div>
         </div>
-      </td>
-    </tr>
-    <tr>
-      <td class="sidebar">
-        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 sidebar">
+        <a href="Ass2.html">Assignment2</a>
         <a href="Assn1.html">Assignment</a>
         <a href="lab 1.html">Lab1</a>
         <a href="lab 2.html">Lab2</a>
         <a href="lab 3.html">Lab3</a>
-       
-      </td>
-      <td class="main-content">
+      </div>
+      <div class="col-md-9 main-content">
         <img src="cutest.jpg" alt="user picture">
         <h2>Hello</h2>
-  <p>
-  👋 Welcome to my academic portfolio! I'm <strong>Nejat Aragaw</strong>, a passionate Software Engineering student at <strong>Wolkite University</strong>.  
-  This space is dedicated to showcasing my journey through code, creativity, and continuous learning.  
-  Explore my lab experiments, course assignments, and personal profile to see how I'm turning ideas into interactive web experiences.  
-  Whether you're a fellow student, instructor, or tech enthusiast — I'm excited to have you here!  
-  <br><br>
-  📬 <strong>Contact me:</strong> <a href="mailto:aragawnejat94@gmail.com">aragawnejat94@gamil.com</a>
-</p>
+        <p>
+          👋 Welcome to my academic portfolio! I'm <strong>Nejat Aragaw</strong>, a passionate Software Engineering student at <strong>Wolkite University</strong>.  
+          This space is dedicated to showcasing my journey through code, creativity, and continuous learning.  
+          Explore my lab experiments, course assignments, and personal profile to see how I'm turning ideas into interactive web experiences.  
+          Whether you're a fellow student, instructor, or tech enthusiast — I'm excited to have you here!  
+          <br><br>
+          📬 <strong>Contact me:</strong> <a href="mailto:aragawnejat94@gmail.com">aragawnejat94@gamil.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
-
-      </td>
-    </tr>
-  </table>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
